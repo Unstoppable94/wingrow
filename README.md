@@ -9,3 +9,4 @@ Maven compile command please use:
 * default compile: clean package -DskipTests 
 * build jar : clean compile assembly:single
 *  mvn install -D maven.javadoc.skip=true -DskipTests
+* mvn install -D maven.javadoc.skip=true -DskipTests deploy -e
